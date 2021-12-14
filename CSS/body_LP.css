@@ -1,0 +1,162 @@
+body {
+    background-color: #13130D;
+    background-image: url(../Assets/kisspng-viking-art-clip-art-vikings-5b478a98e55999.svg);
+    width: 100;
+}
+@media screen and (min-width: 500px){
+    body {
+        width: 100vw;
+    }
+
+}
+
+header {
+    background: linear-gradient(180deg, rgba(19,19,13,0.6) 30%, rgba(19,19,13,0.2) 100%);
+    width: 100vw;
+    height: auto;
+    backdrop-filter: blur(4px);
+    z-index: 0;
+    display: block;
+    position: relative;
+}
+
+
+.con {
+    width: 100%;
+    height: 600px;
+}
+
+.Hero{
+    width: 100%;
+    z-index: 0;
+  
+}
+
+@media screen and (min-width: 500px){
+    .Hero{
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        transform: translateY(-70px);
+    }
+}
+
+.He-1{
+    width: 100%;
+    z-index: 0;
+    height: 20vh;
+}
+
+@media screen and (min-width: 500px){
+    .He-1{
+        width: 100%;
+        height: 50vh;
+        z-index: 0;
+        transform: translateY(-70px);
+    }
+}
+
+.Hero_Tickets{
+        width: 100%;
+        z-index: 0;
+        transform: translateY(200px);
+}
+
+.Hero-but{
+        border: solid 2px var(--W-tx);
+        padding: 16px;
+        color: var(--W-tx);
+        font-size: 20px;
+        background-color: #202020;
+        margin-top: 32px;
+    }
+    
+    .Hero-but:hover{
+        border: solid 2px var(--W-tx);
+        padding: 16px;
+        color: #202020;
+        font-size: 20px;
+        background-color: var(--Wh-bg);
+        margin-top: 32px;
+        transition: color 0.3s ease;
+      transition: 0.5s ease;
+    }
+
+.sli {
+    text-align: center;
+
+    margin: 3rem 0 10rem 0;
+}
+
+.app {
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 4rem auto;
+    background-color: var(--Wh-bg);
+    object-fit: cover;
+}
+
+@media screen and (min-width: 500px)
+{
+    .app {
+        text-align: center;
+        height: 500px;
+        width: auto;
+        max-width: 1000px;
+        margin: 4rem auto;
+        background-color: var(--Wh-bg);
+    }
+
+}
+
+.app img {
+    width: 100%;
+    object-fit:cover;
+    height: 100%;
+}
+
+.ren {
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin: 4rem auto;
+    display: flex;
+}
+
+.Video {
+  height: auto;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.Video video {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+.Vidcta {
+  position: absolute;
+  z-index: 0;
+  bottom: 20px;
+  left: 20%;
+  color: #f4f4f4;
+}
+
+.TmTe {
+    margin: 10px;
+    padding: 2px 10px;
+    color: var(--Wh-tx);
+    background-color:var(--Bl-bg);
+    border-color: var(--Or-tx);
+    border-width: 2px;
+}
+
+footer {
+    background-color: var(--Bl-bg);
+    width: 100%;
+    height: auto;
+}
